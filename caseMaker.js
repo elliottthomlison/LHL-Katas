@@ -7,8 +7,8 @@ const camelCase = (str) => {
 }
 
 const lowerFirst = (str) => {
-  return str[0].toLowerCase()+str.slice(1)
-}w
+  return str[0].toLowerCase() + str.slice(1)
+}
 
 console.log(lowerFirst(camelCase("this is a string")))
 console.log(lowerFirst(camelCase("loopy lighthouse")))
